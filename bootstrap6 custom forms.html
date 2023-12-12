@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Title</title>
+</head>
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+<div class="container">
+    <h2>Custom checkbox</h2>
+    <form action="">
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheck">
+            <label class="custom-control-label" for="customCheck">Custom checkbox</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input">Default checkbox
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<br>
+
+<div class="container">
+    <h2>Custom Switch</h2>
+    <form action="">
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="switch1">
+            <label class="custom-control-label" for="switch1">Toggle me</label>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<br>
+
+<div class="container">
+    <h2>Custom Radio Buttons</h2>
+    <form action="">
+        <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="customRadio">
+            <label class="custom-control-label" for="customRadio">Custom radio</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input">Default Radio
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<br>
+
+<div class="container mt-3">
+    <h2>Inline Custom Form Controls</h2>
+    <form action="">
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" class="custom-control-input" id="customRadio1" name="example1">
+        <label class="custom-control-label" for="customRadio1">Custom radio</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" class="custom-control-input" id="customRadio2" name="example1">
+        <label class="custom-control-label" for="customRadio2">Custom radio</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  
+<br>
+
+<div class="container">
+    <h2>Custom Select Menu</h2>
+    <form action="">
+      <select name="cars" class="custom-select">
+        <option>Custom Select Menu</option>
+        <option>Volvo</option>
+        <option>Fiat</option>
+        <option>Audi</option>
+      </select>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <br>
+
+  <div class="container">
+    <h2>Custom Range</h2>
+    <form action="">
+        <label for="customRange">Custom range</label>
+        <input type="range" class="custom-range" id="customRange">
+        <label for="defaultRange">Default range</label>
+        <input type="range" id="defaultRange">
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <div class="container">
+    <h2>Custom file</h2>
+    <p>Custom file:</p>
+    <form action="">
+        <div class="custom-file">
+            <input type="file" class="custom file-input" id="customFile">
+            <label for="customFile" class="custom-file-label">Choose file</label>
+        </div>
+        <p>Default file:</p>
+        <input type="file" id="myfile">
+        <br>
+        <button type="submit" class="bn btn-primary">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
